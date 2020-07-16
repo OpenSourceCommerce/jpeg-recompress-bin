@@ -1,9 +1,9 @@
 {
-  "name": "jpeg-recompress-bin",
+  "name": "@nhatdo-osc/jpeg-recompress-bin",
   "version": "5.1.2",
   "description": "jpeg-recompress wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/jpeg-recompress-bin",
+  "repository": "OpenSourceCommerce/jpeg-recompress-bin",
   "author": {
     "name": "Shogo Sensui",
     "email": "shogosensui@gmail.com",
@@ -11,20 +11,12 @@
   },
   "maintainers": [
     {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Kevin Mårtensson",
-      "email": "kevinmartensson@gmail.com",
-      "url": "github.com/kevva"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
+      "name": "Nhat Do",
+      "url": "github.com/nhatdo-nfq",
+      "email": "nhat.do@nfq.asia"
     }
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bin": {
     "jpeg-recompress": "cli.js"
   },
